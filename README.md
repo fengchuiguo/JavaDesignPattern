@@ -1,1 +1,1 @@
-# javaDesignPattern
+# JavaDesignPattern
