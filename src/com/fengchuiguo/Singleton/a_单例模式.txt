@@ -11,6 +11,7 @@
 3、提供一个供外界获取实例的方法，使用public static修饰。
 
 -----------------------
+
 Singleton3
 //    方法2、双重检查锁定
 //   【注意*】此种方式需要将instance声明为 volatile；
@@ -26,8 +27,3 @@ Singleton3
 
 ---------------------
 
-thanks：
-http://blog.csdn.net/jason0539/article/details/23297037
-http://www.cnblogs.com/java-my-life/archive/2012/03/31/2425631.html
-http://book.51cto.com/art/201010/232020.htm
-http://www.iteye.com/topic/652440
