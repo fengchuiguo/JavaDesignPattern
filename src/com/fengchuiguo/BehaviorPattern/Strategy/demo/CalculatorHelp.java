@@ -1,0 +1,15 @@
+package com.fengchuiguo.BehaviorPattern.Strategy.demo;
+
+/**
+ * 辅助类
+ * (说明：辅助类也可以设计成为一个抽象类，提供辅助函数，让使用到的子类去继承这个辅助类)
+ */
+public class CalculatorHelp {
+    public static int[] split(String exp, String opt) {
+        String array[] = exp.split(opt);
+        int arrayInt[] = new int[2];
+        arrayInt[0] = Integer.parseInt(array[0]);
+        arrayInt[1] = Integer.parseInt(array[1]);
+        return arrayInt;
+    }
+}
